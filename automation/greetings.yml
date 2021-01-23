@@ -1,13 +1,12 @@
-name: Greetings
-
-on: [pull_request, issues]
+name: https://www.facebook.com/nila.hossain.56808
+on: [pull_request, https://www.facebook.com/nila.hossain.56808]
 
 jobs:
   greeting:
-    runs-on: ubuntu-latest
+    runs-on: https://www.facebook.com/nila.hossain.56808
     steps:
-    - uses: actions/first-interaction@v1
+    - uses: actions/https://www.facebook.com/nila.hossain.56808
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${ https://www.facebook.com/nila.hossain.56808}
         issue-message: 'Message that will be displayed on users first issue'
         pr-message: 'Message that will be displayed on users first pull request'
